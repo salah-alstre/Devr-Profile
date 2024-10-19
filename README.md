@@ -22,7 +22,7 @@ This project is a personal developer portfolio designed to showcase my skills, e
 
 
 ## Screenshots
-![CV Image](https://github.com/salah-alstre/salahcv/blob/main/public/cvsalah.png?raw=true)
+![CV Image](https://github.com/salah-alstre/Devr-Profile/blob/main/public/DEVE.jpg)
 
 1. Clone this repository:
    ```bash
