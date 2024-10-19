@@ -44,7 +44,7 @@ This project is a personal developer portfolio designed to showcase my skills, e
        npm run dev 
 
 ## Demo:
-Check out the live version of the portfolio here: [https://devr-profile.vercel.app/]
+Check out the live version of the portfolio here: [Demo Link] (https://devr-profile.vercel.app/)
 
 
 ## Contributing
