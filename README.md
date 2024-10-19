@@ -24,6 +24,8 @@ This project is a personal developer portfolio designed to showcase my skills, e
 ## Screenshots
 ![CV Image](https://github.com/salah-alstre/Devr-Profile/blob/main/public/DEVE.jpg)
 
+## installation
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/salah-alstre/salahcv.git
