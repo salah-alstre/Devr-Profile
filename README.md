@@ -28,17 +28,17 @@ This project is a personal developer portfolio designed to showcase my skills, e
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/salah-alstre/salahcv.git
+   git clone https://github.com/salah-alstre/Devr-Profile.git
 
 2. Navigate to the project directory:
 
-       cd salahcv
+       cd Devr-Profile
 
-3. Install dependencies:
+4. Install dependencies:
 
        npm install
 
-4. Running the Server
+5. Running the Server
 
 
        npm run dev 
