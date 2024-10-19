@@ -15,6 +15,7 @@ This project is a personal developer portfolio designed to showcase my skills, e
 
 ## Technologies Used:
 - React for building a dynamic frontend.
+- Vite for fast development and optimized build process.
 - Tailwind CSS for modern, responsive styling.
 - React Icons for intuitive icons.
 - React Router for smooth navigation between sections.
