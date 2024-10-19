@@ -1,0 +1,11 @@
+/* App.css */
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s; /* لتحسين التحولات */
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
