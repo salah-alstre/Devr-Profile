@@ -22,27 +22,29 @@ This project is a personal developer portfolio designed to showcase my skills, e
 
 
 ## Screenshots
-![CV Image](https://github.com/salah-alstre/salahcv/blob/main/public/cvsalah.png?raw=true)
+![CV Image](https://github.com/salah-alstre/Devr-Profile/blob/main/public/DEVE.jpg)
+
+## installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/salah-alstre/salahcv.git
+   git clone https://github.com/salah-alstre/Devr-Profile.git
 
 2. Navigate to the project directory:
 
-       cd salahcv
+       cd Devr-Profile
 
-3. Install dependencies:
+4. Install dependencies:
 
        npm install
 
-4. Running the Server
+5. Running the Server
 
 
        npm run dev 
 
 ## Demo:
-Check out the live version of the portfolio here: [Demo Link]
+Check out the live version of the portfolio here: [Demo Link](https://devr-profile.vercel.app/)
 
 
 ## Contributing
