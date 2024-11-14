@@ -242,7 +242,7 @@ const Projects = () => {
           </div> 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
-            <a href="https://dev-profile-i0avhbqjt-error-25s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://e-drive-showcase.vercel.app/" target="_blank" rel="noopener noreferrer">
          <img src={project9} className='w-[300px] rounded-md' alt="Project 1" />
         </a>
               <h3 className="text-lg font-bold"> E-Drive Showcase</h3>
@@ -264,7 +264,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
-            <a href="https://salahcv.site/" target="_blank" rel="noopener noreferrer">
+            <a href="https://devr-profile.vercel.app/" target="_blank" rel="noopener noreferrer">
           <img src={project10} className='w-[300px] rounded-md' alt="Project 1" />
        </a>
               <h3 className="text-lg font-bold"> Developer Portfolio</h3>
