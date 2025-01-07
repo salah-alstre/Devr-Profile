@@ -8,7 +8,8 @@ import project6 from "../../public/project-6.png"
 import project7 from "../../public/project-7.png"
 import project8 from "../../public/project-8.png"
 import project9 from "../../public/project-9.png"
-import project10 from "../../public/DEVE.jpg"
+import project10 from "../../public/project-10.png"
+import project11 from "../../public/project-11.png"
 
 
 
@@ -67,7 +68,7 @@ const Projects = () => {
             </div>
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
             <a href="https://ev-bmw.vercel.app/" target="_blank" rel="noopener noreferrer">
-        <img src={project2} className='w-[300px] rounded-md' alt="Project 1" />
+        <img src={project2} className='w-[300px] rounded-md' alt="Project 2" />
        </a>
               <h3 className="text-lg font-bold">Ev Bmw </h3>
               <span className="text-sm text-gray-500 font-semibold">Oct 2024 </span>
@@ -95,7 +96,7 @@ const Projects = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
             <a href="https://ai-image-generator-theta-vert.vercel.app/" target="_blank" rel="noopener noreferrer">
-          <img src={project3} className='w-[300px] rounded-md' alt="Project 1" />
+          <img src={project3} className='w-[300px] rounded-md' alt="Project 3" />
            </a>
               <h3 className="text-lg font-bold"> AI Image Generator </h3>
               <span className="text-sm text-gray-500 font-semibold">Jan 2024 - Feb 2024</span>
@@ -121,7 +122,7 @@ const Projects = () => {
             </div>
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
             <a href="https://contact-form-two-nu.vercel.app/" target="_blank" rel="noopener noreferrer">
-          <img src={project4} className='w-[300px] rounded-md' alt="Project 1" />
+          <img src={project4} className='w-[300px] rounded-md' alt="Project 4" />
         </a>
               <h3 className="text-lg font-bold"> Contact Form</h3>
               <span className="text-sm text-gray-500 font-semibold">Aug 2024 - Oct 2024</span>
@@ -141,7 +142,7 @@ const Projects = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
             <a href="https://bmw-elegance.vercel.app/" target="_blank" rel="noopener noreferrer">
-         <img src={project5} className='w-[300px] rounded-md' alt="Project 1" />
+         <img src={project5} className='w-[300px] rounded-md' alt="Project 5" />
         </a>
               <h3 className="text-lg font-bold"> BMW Elegance</h3>
               <span className="text-sm text-gray-500 font-semibold">Jan 2024 - Feb 2024</span>
@@ -158,7 +159,7 @@ const Projects = () => {
             </div>
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
             <a href="https://image-search-engine-teal-omega.vercel.app/" target="_blank" rel="noopener noreferrer">
-         <img src={project6} className='w-[300px] rounded-md' alt="Project 1" />
+         <img src={project6} className='w-[300px] rounded-md' alt="Project 6" />
         </a>
               <h3 className="text-lg font-bold">Image Search</h3>
               <span className="text-sm text-gray-500 font-semibold">Feb 2024 - Mar 2024</span>
@@ -187,7 +188,7 @@ const Projects = () => {
            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
             <a href="https://dev-profile-i0avhbqjt-error-25s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
-         <img src={project7} className='w-[300px] rounded-md' alt="Project 1" />
+         <img src={project7} className='w-[300px] rounded-md' alt="Project 7" />
         </a>
               <h3 className="text-lg font-bold"> Dev Profile</h3>
               <span className="text-sm text-gray-500 font-semibold">Jan 2024 - Feb 2024</span>
@@ -215,7 +216,7 @@ const Projects = () => {
             </div>
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
             <a href="https://salahcv.site/" target="_blank" rel="noopener noreferrer">
-          <img src={project8} className='w-[300px] rounded-md' alt="Project 1" />
+          <img src={project8} className='w-[300px] rounded-md' alt="Project 8" />
        </a>
               <h3 className="text-lg font-bold"> CV Project</h3>
               <span className="text-sm text-gray-500 font-semibold">Feb 2024 - Mar 2024</span>
@@ -242,8 +243,8 @@ const Projects = () => {
           </div> 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
-            <a href="https://dev-profile-i0avhbqjt-error-25s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
-         <img src={project9} className='w-[300px] rounded-md' alt="Project 1" />
+            <a href="https://e-drive-showcase.vercel.app/" target="_blank" rel="noopener noreferrer">
+         <img src={project9} className='w-[300px] rounded-md' alt="Project 9" />
         </a>
               <h3 className="text-lg font-bold"> E-Drive Showcase</h3>
               <span className="text-sm text-gray-500 font-semibold">Jan 2024 - Feb 2024</span>
@@ -264,8 +265,8 @@ const Projects = () => {
               </div>
             </div>
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
-            <a href="https://salahcv.site/" target="_blank" rel="noopener noreferrer">
-          <img src={project10} className='w-[300px] rounded-md' alt="Project 1" />
+            <a href="https://devr-profile.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <img src={project10} className='w-[300px] rounded-md' alt="Project 10" />
        </a>
               <h3 className="text-lg font-bold"> Developer Portfolio</h3>
               <span className="text-sm text-gray-500 font-semibold">Feb 2024 - Mar 2024</span>
@@ -287,6 +288,40 @@ const Projects = () => {
              <div className="py-2 px-5 border-none text-white
               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
                from-emerald-500 to-green-500" >Node.js</div>
+              </div>
+            </div>
+        
+          </div> 
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+           
+            <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
+            <a href="https://certify-me-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <img src={project11} className='w-[300px] rounded-md' alt="Project 11" />
+       </a>
+              <h3 className="text-lg font-bold"> Certify Me</h3>
+              <span className="text-sm text-gray-500 font-semibold">Jan 2025 - Jan 2025</span>
+              <p className="text-xs text-gray-400 font-medium max-w-64">Welcome to my portfolio website where I share my certifications, 
+                technical achievements, and projects. 
+                My journey in full-stack development has been guided by a passion 
+                for creating innovative solutions and solving real-world
+                 problems using modern technologies
+               </p>
+                <div className="flex flex-wrap gap-3 text-xs">
+              <div className="py-2 px-5 border-none text-white
+               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
+                from-orange-500 to-yellow-500" >JavaScript</div>
+                <div className="py-2 px-5 border-none text-white
+               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
+               from-blue-500 to-indigo-500" >React</div>
+                <div className="py-2 px-5 border-none text-white
+              font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
+               from-emerald-500 to-blue-500" >Vite</div>
+             <div className="py-2 px-5 border-none text-white
+               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
+               from-sky-500 to-blue-500" >TAILWIND CSS</div>
+             <div className="py-2 px-5 border-none text-white
+               font-semibold rounded-xl hover:opacity-75 bg-black" >Next.js</div>
+               
               </div>
             </div>
         
