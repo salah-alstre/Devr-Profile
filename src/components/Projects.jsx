@@ -241,59 +241,46 @@ const Projects = () => {
             </div>
         
           </div> 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-            <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
-            <a href="https://e-drive-showcase.vercel.app/" target="_blank" rel="noopener noreferrer">
-         <img src={project9} className='w-[300px] rounded-md' alt="Project 9" />
-         <img src={project9} className='w-[300px] rounded-md' alt="Project 1" />
-        </a>
-              <h3 className="text-lg font-bold"> E-Drive Showcase</h3>
-              <span className="text-sm text-gray-500 font-semibold">Jan 2024 - Feb 2024</span>
-              <p className="text-xs text-gray-400 font-medium max-w-64">This project is a User Profile Card Component built using React JSX. It provides 
-                a sleek and modern way to display user information in a visually appealing format.</p>
-              <div className="flex gap-3 text-xs">
-              <div className="flex flex-wrap gap-3 text-xs">
-              <div className="py-2 px-5 border-none text-white
-            font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
-            from-orange-500 to-yellow-500" >JavaScript</div>
-             <div className="py-2 px-5 border-none text-white
-               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
-               from-sky-500 to-blue-500" >CSS</div>
-                <div className="py-2 px-5 border-none text-white
-               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
-               from-red-500 to-orange-500" >HTML</div>
-              </div>
-              </div>
-            </div>
-            <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
-            <a href="https://devr-profile.vercel.app/" target="_blank" rel="noopener noreferrer">
-          <img src={project10} className='w-[300px] rounded-md' alt="Project 10" />
-          <img src={project10} className='w-[300px] rounded-md' alt="Project 1" />
-       </a>
-              <h3 className="text-lg font-bold"> Developer Portfolio</h3>
-              <span className="text-sm text-gray-500 font-semibold">Feb 2024 - Mar 2024</span>
-              <p className="text-xs text-gray-400 font-medium max-w-64">This project is a personal interactive CV 
-                designed to showcase my skills and professional experience</p>
-                <div className="flex flex-wrap gap-3 text-xs">
-              <div className="py-2 px-5 border-none text-white
-               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
-                from-orange-500 to-yellow-500" >JavaScript</div>
-                <div className="py-2 px-5 border-none text-white
-               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
-               from-blue-500 to-indigo-500" >React</div>
-               <div className="py-2 px-5 border-none text-white
-               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
-               from-sky-500 to-blue-500" >CSS</div>
-                <div className="py-2 px-5 border-none text-white
-              font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
-               from-emerald-500 to-blue-500" >Vite</div>
-             <div className="py-2 px-5 border-none text-white
-              font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
-               from-emerald-500 to-green-500" >Node.js</div>
-              </div>
-            </div>
-        
-          </div> 
+         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        {/* E-Drive Showcase */}
+        <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
+          <a href="https://e-drive-showcase.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img src={project9} className="w-[300px] rounded-md" alt="E-Drive Showcase" />
+          </a>
+          <h3 className="text-lg font-bold">E-Drive Showcase</h3>
+          <span className="text-sm text-gray-500 font-semibold">Jan 2024 - Feb 2024</span>
+          <p className="text-xs text-gray-400 font-medium max-w-64">
+            This project is a User Profile Card Component built using React JSX. It provides 
+            a sleek and modern way to display user information in a visually appealing format.
+          </p>
+          <div className="flex flex-wrap gap-3 text-xs">
+            <div className="py-2 px-5 border-none text-white font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r from-orange-500 to-yellow-500">JavaScript</div>
+            <div className="py-2 px-5 border-none text-white font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r from-sky-500 to-blue-500">CSS</div>
+            <div className="py-2 px-5 border-none text-white font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r from-red-500 to-orange-500">HTML</div>
+          </div>
+        </div>
+      
+        {/* Developer Portfolio */}
+        <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
+          <a href="https://devr-profile.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img src={project10} className="w-[300px] rounded-md" alt="Developer Portfolio" />
+          </a>
+          <h3 className="text-lg font-bold">Developer Portfolio</h3>
+          <span className="text-sm text-gray-500 font-semibold">Feb 2024 - Mar 2024</span>
+          <p className="text-xs text-gray-400 font-medium max-w-64">
+            This project is a personal interactive CV designed to showcase my skills and professional experience.
+          </p>
+          <div className="flex flex-wrap gap-3 text-xs">
+            <div className="py-2 px-5 border-none text-white font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r from-orange-500 to-yellow-500">JavaScript</div>
+            <div className="py-2 px-5 border-none text-white font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r from-blue-500 to-indigo-500">React</div>
+            <div className="py-2 px-5 border-none text-white font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r from-sky-500 to-blue-500">CSS</div>
+            <div className="py-2 px-5 border-none text-white font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r from-emerald-500 to-blue-500">Vite</div>
+            <div className="py-2 px-5 border-none text-white font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r from-emerald-500 to-green-500">Node.js</div>
+          </div>
+           </div>
+          </div>
+              
+          
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
            
             <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
