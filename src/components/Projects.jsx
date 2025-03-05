@@ -10,6 +10,7 @@ import project8 from "../../public/project-8.png"
 import project9 from "../../public/project-9.png"
 import project10 from "../../public/project-10.png"
 import project11 from "../../public/project-11.png"
+import project12 from "../../public/project-12.png"
 
 
 
@@ -281,13 +282,14 @@ const Projects = () => {
           </div>
               
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-           
-            <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
-            <a href="https://certify-me-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
-          <img src={project11} className='w-[300px] rounded-md' alt="Project 11" />
-       </a>
-              <h3 className="text-lg font-bold"> Certify Me</h3>
+           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            
+        {/* Certify Me */}
+        <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
+          <a href="https://certify-me-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img src={project11} className="w-[300px] rounded-md" alt="Project 11" />
+          </a>
+          <h3 className="text-lg font-bold"> Certify Me</h3>
               <span className="text-sm text-gray-500 font-semibold">Jan 2025 - Jan 2025</span>
               <p className="text-xs text-gray-400 font-medium max-w-64">Welcome to my portfolio website where I share my certifications, 
                 technical achievements, and projects. 
@@ -295,7 +297,7 @@ const Projects = () => {
                 for creating innovative solutions and solving real-world
                  problems using modern technologies
                </p>
-                <div className="flex flex-wrap gap-3 text-xs">
+          <div className="flex flex-wrap gap-3 text-xs">
               <div className="py-2 px-5 border-none text-white
                font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
                 from-orange-500 to-yellow-500" >JavaScript</div>
@@ -312,9 +314,37 @@ const Projects = () => {
                font-semibold rounded-xl hover:opacity-75 bg-black" >Next.js</div>
                
               </div>
-            </div>
-        
-          </div> 
+        </div>
+      
+        {/* A Zoom Clone */}
+        <div className="flex flex-col items-baseline text-left gap-2 border rounded-lg p-5 hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1">
+          <a href="https://zoom-clone-ten-zeta.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img src={project12} className="w-[300px] rounded-md" alt="A Zoom Clone" />
+          </a>
+          <h3 className="text-lg font-bold">Zoom Clone</h3>
+          <span className="text-sm text-gray-500 font-semibold">Feb 2024 - Mar 2024</span>
+          <p className="text-xs text-gray-400 font-medium max-w-64">
+          Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants</p>
+
+          <div className="flex flex-wrap gap-3 text-xs">
+              <div className="py-2 px-5 border-none text-white
+               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
+                from-orange-500 to-yellow-500" >JavaScript</div>
+                <div className="py-2 px-5 border-none text-white
+               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
+               from-blue-500 to-indigo-500" >React</div>
+                <div className="py-2 px-5 border-none text-white
+                  font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
+                  from-sky-500 to-blue-500" >TypeScript</div>
+             <div className="py-2 px-5 border-none text-white
+               font-semibold rounded-xl hover:opacity-75 bg-gradient-to-r
+               from-sky-500 to-blue-500" >TAILWIND CSS</div>
+             <div className="py-2 px-5 border-none text-white
+               font-semibold rounded-xl hover:opacity-75 bg-black" >Next.js</div>
+               
+              </div>
+           </div>
+          </div>
  </div> 
     
  </div>
