@@ -322,7 +322,7 @@ const Projects = () => {
             <img src={project12} className="w-[300px] rounded-md" alt="A Zoom Clone" />
           </a>
           <h3 className="text-lg font-bold">Zoom Clone</h3>
-          <span className="text-sm text-gray-500 font-semibold">Feb 2024 - Mar 2024</span>
+          <span className="text-sm text-gray-500 font-semibold">Mar 2025 - Apr 2025</span>
           <p className="text-xs text-gray-400 font-medium max-w-64">
           Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants</p>
 
